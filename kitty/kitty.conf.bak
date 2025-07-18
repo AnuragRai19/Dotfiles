@@ -6,7 +6,7 @@ kitty_mod ctrl+shift
 
 
 # BEGIN_KITTY_THEME
-# Tokyo Night Moon
+# Dracula
 include current-theme.conf
 # END_KITTY_THEME
 
