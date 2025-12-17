@@ -1,0 +1,121 @@
+configuration {
+    display-drun: "Applications:";
+    display-window: "Windows:";
+    drun-display-format: "{icons} {name}";
+    font: "FiraMono Nerd Font Medium 12";
+    modi: "window,run,drun";
+    show-icons: true;
+    icon-theme: "Papirus-Dark";
+}
+
+@theme "/dev/null"
+
+* {
+    /* Tokyo Night Color Palette */
+    bg0:    #1a1b26;  /* Main Background */
+    bg1:    #24283b;  /* Lighter Background (inputs, etc.) */
+    bg2:    #24283bCC;/* Lighter Background w/ Transparency */
+    bg3:    #7aa2f7;  /* Accent / Selection (Blue) */
+    
+    fg0:    #c0caf5;  /* Main Foreground */
+    fg1:    #a9b1d6;  /* Lighter Foreground */
+    fg2:    #9ece6a;  /* Green (for prompt) */
+    fg3:    #565f89;  /* Comments / Placeholder Text */
+
+    /* Font Consistency - Overriding the global font setting */
+    font:   "FiraMono Nerd Font Medium 12";
+
+    background-color: transparent;
+    text-color:       @fg0;
+    
+    margin:  0px;
+    padding: 0px;
+    spacing: 0px;
+}
+
+window {
+    location:         north;
+    y-offset:         calc(50% - 176px); /* Your original offset */
+    width:            480;
+    border-radius:    24px;
+
+    background-color: @bg0;
+}
+
+mainbox {
+    padding: 12px;
+}
+
+inputbar {
+    background-color: @bg1;
+    border-color:     @bg3;
+
+    border:           2px;
+    border-radius:    16px;
+
+    padding:          8px 16px;
+    spacing:          8px;
+    children:         [ prompt, entry ];
+}
+
+prompt {
+    text-color: @fg2;
+}
+
+entry {
+    placeholder:       "Search";
+    placeholder-color: @fg3;
+    text-color:        @fg0;
+}
+
+message {
+    margin:           12px 0 0;
+    border-radius:    16px;
+    border-color:     @bg2;
+    background-color: @bg2;
+}
+
+textbox {
+    padding:    8px 24px;
+    text-color: @fg0;
+}
+
+listview {
+    background-color: transparent;
+
+    margin:       12px 0 0;
+    lines:        8;
+    columns:      1;
+
+    fixed-height: false;
+}
+
+element {
+    padding:       8px 16px;
+    spacing:       8px;
+    border-radius: 16px;
+}
+
+/* Change highlight color of active but not-selected elements */
+element normal active {
+    text-color: @bg3;
+}
+
+element alternate active {
+    text-color: @bg3;
+}
+
+/* Style for the selected element */
+element selected normal, element selected active {
+    background-color: @bg3;
+    text-color:       @bg0; /* Text color changes for better contrast on selection */
+}
+
+element-icon {
+    size:           1em;
+    vertical-align: 0.5;
+}
+
+element-text {
+    text-color: inherit;
+}

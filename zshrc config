@@ -1,0 +1,20 @@
+# Created by newuser for 5.9
+
+eval "$(starship init zsh)"
+
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/path/to/fsh/fast-syntax-highlighting.plugin.zsh
+source $HOME/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+
+fastfetch
+
+# History settings
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+
+setopt INC_APPEND_HISTORY       # Append commands to the history file immediately
+setopt SHARE_HISTORY            # Share history between all sessions
+setopt HIST_IGNORE_ALL_DUPS     # Don't record duplicated commands
+setopt HIST_REDUCE_BLANKS       # Remove unnecessary blanks
