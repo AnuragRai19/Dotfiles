@@ -18,7 +18,7 @@ This repository contains my personal configurations (**dotfiles**) for a keyboar
 
 My environment begins with a minimal **CachyOS** installation. I opted for a TTY-only base to ensure zero bloat and to have full control over the display stack.
 
-### 1. The Display Stack
+### The Display Stack
 Since I am targeting a modern, secure, and performant workflow, I migrated entirely to **Wayland**. The core of this phase involves the installation of the Niri compositor and its X11 compatibility layer for legacy applications.
 
 ```bash
