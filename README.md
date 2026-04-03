@@ -70,3 +70,24 @@ My `binds` section is customized for high-speed navigation, utilizing the **Supe
 * **Quick Launch:** Direct bindings for **Kitty** (Mod+T), **Brave** (Mod+B), **VS Code** (Mod+C), and **Nautilus** (Mod+E). 
 * **Utility Tools:** Integrated **Fuzzel** for application launching (Mod+Space) and a custom clipboard history picker (Mod+V) using `fuzzel --dmenu`. 
 * **Window Management:** Leverages Niri's unique "column" logic with `consume-or-expel` (Mod+Bracket) and `switch-preset-column-width` (Mod+R) for dynamic layout adjustments. 
+
+---
+
+### Screenshots
+<div align="center">
+  <img src="Assets/Screenshot from 2026-04-03 23-45-13.png" width="31%" />
+  <img src="Assets/Screenshot from 2026-04-03 23-45-29.png" width="31%" />
+  <img src="Assets/Screenshot from 2026-04-03 23-45-42.png" width="31%" />
+</div>
+
+<div align="center">
+  <img src="Assets/Screenshot from 2026-04-03 23-45-51.png" width="31%" />
+  <img src="Assets/Screenshot from 2026-04-03 23-45-57.png" width="31%" />
+  <img src="Assets/Screenshot from 2026-04-03 23-46-13.png" width="31%" />
+</div>
+
+<div align="center">
+  <img src="Assets/Screenshot from 2026-04-03 23-46-56.png" width="31%" />
+  <img src="Assets/Screenshot from 2026-04-03 23-51-32.png" width="31%" />
+  <img src="Assets/Screenshot from 2026-04-03 23-51-47.png" width="31%" />
+</div>
