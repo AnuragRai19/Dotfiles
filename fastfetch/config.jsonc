@@ -1,0 +1,82 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "kitty",
+    "source": "/home/anuragrai/.config/fastfetch/png/image2.png",
+    "height": 13,
+    "width": 28,
+    "padding": {
+      "top": 1,
+      "left": 2,
+      "right": 4,
+    },
+  },
+  "display": {
+    "separator": "  ",
+    "constants": ["─────────────────"],
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "\u001b[36m╭───────────╮",
+      "key": " ",
+    },
+    {
+      "type": "title",
+      "key": "\u001b[36m│ \u001b[35m \u001b[31muser    \u001b[36m│",
+      "format": "{1}",
+    },
+    {
+      "type": "host",
+      "key": "\u001b[36m│ \u001b[32m \u001b[31mhname   \u001b[36m│",
+    },
+    {
+      "type": "uptime",
+      "key": "\u001b[36m│ \u001b[33m \u001b[31muptime  \u001b[36m│",
+    },
+    {
+      "type": "os",
+      "key": "\u001b[36m│ \u001b[34m \u001b[31mdistro  \u001b[36m│",
+    },
+    {
+      "type": "kernel",
+      "key": "\u001b[36m│ \u001b[35m \u001b[31mkernel  \u001b[36m│",
+    },
+    {
+      "type": "terminal",
+      "key": "\u001b[36m│ \u001b[31m \u001b[31mterm    \u001b[36m│",
+    },
+    {
+      "type": "shell",
+      "key": "\u001b[36m│ \u001b[33m \u001b[31mshell   \u001b[36m│",
+    },
+    {
+      "type": "cpu",
+      "key": "\u001b[36m│ \u001b[34m \u001b[31mcpu     \u001b[36m│",
+    },
+    {
+      "type": "disk",
+      "key": "\u001b[36m│ \u001b[32m \u001b[31mdisk    \u001b[36m│",
+      "format": "{1} / {2} ({3})",
+    },
+    {
+      "type": "memory",
+      "key": "\u001b[36m│ \u001b[35m \u001b[31mmemory  \u001b[36m│",
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[36m├───────────┤",
+      "key": " ",
+    },
+    {
+      "type": "colors",
+      "key": "\u001b[36m│ \u001b[37m \u001b[31mcolors  \u001b[36m│",
+      "symbol": "circle",
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[36m╰───────────╯",
+      "key": " ",
+    },
+  ],
+}
