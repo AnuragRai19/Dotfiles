@@ -1,4 +1,4 @@
-# Niri Setup Guide
+# Niri Dotfiles
 
 This repository contains my personal configurations (**dotfiles**) for a keyboard-driven, minimal, and high-performance Wayland environment. Built on **CachyOS** (Arch-based), this setup focuses on the **Niri** scrolling compositor and the **Noctalia** shell.
 
