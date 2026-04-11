@@ -10,7 +10,7 @@ This repository contains my personal configurations (**dotfiles**) for a keyboar
 * **Shell/Bar:** **Noctalia** (Built on [Quickshell](https://github.com/outfoxxed/quickshell)).
 * **Terminal:** [Kitty](https://sw.kovidgoyal.net/kitty/) with [Zsh](https://www.zsh.org/) and [Starship](https://starship.rs/).
 * **App Launcher:** [Fuzzel](https://codeberg.org/dnkl/fuzzel).
-* **Theme Management:** `nwg-look` (GTK3/4).
+* **Theme Management:** `nwg-look/noctalia` (GTK3/4).
 
 ---
 
